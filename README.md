@@ -11,9 +11,6 @@ Also, from the dropdown menu on the side bar, you can select any of the cities a
 
 Finally, you can view all locations at once by clicking the View All button, also on the sidebar.
 
-Motivation
-
-This app has been created as a partial requirement for recruitment into the Andela Fellowship.
 
 Installation
 
