@@ -1,0 +1,254 @@
+
+/* HTML Elements */
+body {
+	margin: 0;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+table{
+	padding-top: 30px;
+	padding-left: 60px;
+	padding-right:10px;
+	padding-bottom: 20px;
+	font-family: "Trebuchet MS";
+}
+
+th{
+	text-align: left;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+
+tr.spacer{
+	margin-bottom: 50px;
+}
+
+
+table p{
+	padding-bottom: 5px;
+}
+
+/* Main CSS */
+
+.main{
+	background-image: url("../images/clock6.jpg");
+	position: relative;
+	/*background-repeat:no-repeat;*/
+	padding-top: 360px;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+
+.main .time-zone-opts{
+	padding: 5px !important;
+}
+
+.welcome{
+	float: left;
+	font-family: "Trebuchet MS";
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	margin-top: -380px;
+	margin-left: 15px;
+	margin-bottom: 40px;
+	padding-top: 10px;
+	position: absolute;
+}
+
+.welcome a{
+	text-decoration: none;
+	color: #37535B;;
+	font-size: 18px;
+}
+
+
+/* Main Canvas */
+.container{
+	width: 400px;
+	height: 400px;
+	border: none;
+	padding-top:15px;
+	text-align: center;
+}
+
+.container .clock{
+	position:absolute;
+    left:54%;
+    top:5%;
+    max-width: 10%;
+}
+
+#canvas{
+	border: none;
+	max-width: 100%;
+    height: auto;
+}
+
+/*Side Bar Widgets*/
+
+.main .side-banners-1{
+	position: absolute;
+	top: 12%;
+	margin: 15px;
+
+}
+
+.side-banners-1 h3{
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	padding-left: 95px;
+	
+}
+
+/* Banners */
+
+.banner{
+	width:270px;
+	height: 300px; 
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	float: left;
+}
+
+.banner0{
+	background: #C6CC10 url("../images/banners/banner5.png") no-repeat;
+	color: #37535B;
+	font-family: "Trebuchet MS";
+	margin-right: 5px;
+
+}
+
+.banner1{
+	background: #31B3DA url("../images/banners/banner1.png") no-repeat;
+	color:#37535B;
+	font-family: "Arial Narrow";
+}
+
+.banner-text{
+	font-size: 14px;
+	padding-left: 5px;
+	padding-top: 53px;
+}
+
+.time-zone-opts{
+	background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+    height: 29px;
+    width: 240px;
+    
+}
+
+.time-zone-opts select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 240px;
+}
+
+.time-zone-opts button{
+	border-radius: 10px;
+	font-size: 14px;
+	color: white;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	margin-top: 30px;
+	width: 110px;
+	background: background-color:rgba(204,204,204,0.5);
+}
+
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+.white{ 
+	background-color: #ffffff; 
+}
+
+.banner-text1{
+	padding-top: 50px;
+	padding-left: 5px;
+}
+
+.banner-text2{
+	padding-top: 30px;
+	padding-left: 5px;
+}
+
+/* MULTIPLE CLOCK PAGE */
+
+.logo-multiple{
+	padding: 30px;
+}
+.logo-multiple a{
+	text-decoration: none;
+	font-size: 38px;
+	font-family: "Trebuchet MS";
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	color: #999;
+}
+
+.clocks-main{
+	background-image: url("../images/clock1.jpg");
+	position: relative;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+
+.purple{
+	background:purple; 
+	border-radius:5px; 
+	background-size:10px; 
+	padding:3px;
+	color: #B759E1;
+}
+
+.blue{
+	background: #0061B7;
+	border-radius:5px; 
+	background-size:10px; 
+	padding:3px;
+}
+
+.red{
+	background: #EA4615;
+	border-radius:5px; 
+	background-size:10px; 
+	padding:3px;
+}
+
+.yellow{
+	background: #F2D300;
+	border-radius:5px; 
+	background-size:10px; 
+	padding:3px;
+}
+
+.green{
+	background: #4CB42A;
+	border-radius:5px; 
+	background-size:10px; 
+	padding:3px;
+}
+
+.orange{
+	background: #FF9E27;
+	border-radius:5px; 
+	background-size:10px; 
+	padding:3px;
+}
+
+
